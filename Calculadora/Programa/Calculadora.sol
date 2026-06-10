@@ -1,5 +1,5 @@
 // licencia 
-// // SPDX-License-Identifier: LGPL-3.0-only
+// SPDX-License-Identifier: LGPL-3.0-only
 
 // Version Solidity 
 pragma solidity 0.8.24; 
