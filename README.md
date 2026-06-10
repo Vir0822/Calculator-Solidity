@@ -10,7 +10,7 @@ Smart contract of a basic calculator built with Solidity 0.8.24
 - Public and internal functions
 
 # Technologies
-- Solidity 0.8.35
+- Solidity 0.8.24
 
 # Author
 Virginia Blockchain Developer
