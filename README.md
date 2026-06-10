@@ -1,6 +1,6 @@
 # calculator - Solidity
 
-Smart contract of a basic calculator built with Solidity 0.8.35.
+Smart contract of a basic calculator built with Solidity 0.8.24
 
 # Functionalities
 - Addition and subtraction of positive numbers (uint256)
