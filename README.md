@@ -11,6 +11,8 @@ Smart contract of a basic calculator built with Solidity 0.8.35
 
 # Technologies
 - Solidity 0.8.35
+- Ethereum
+- remix.ethereum.org
 
 # Author
 Virginia Blockchain Developer
