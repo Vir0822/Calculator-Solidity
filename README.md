@@ -19,8 +19,8 @@ The contract provides a set of calculator operations while illustrating how Soli
 
 | File | Description |
 | --- | --- |
-| `Add corrected Calculadora.sol.sol` | Contract using Solidity `0.8.24`. |
-| `Calculadora.sol` | Contract using Solidity `0.8.24`. |
+| `calculator.sol` | Solidity calculator contract using version `0.8.24`. |
+| `Calculadora.sol` | Alternative contract version using Solidity `0.8.24`. |
 
 ## Contract API
 
