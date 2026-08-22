@@ -8,6 +8,24 @@ A Solidity-based calculator project that demonstrates arithmetic operations, sta
 
 The contract provides a set of calculator operations while illustrating how Solidity handles persistent state, input validation, event emission, and different integer types. It combines functions that return calculated values with functions that update the on-chain variable `resultado`, making it a practical example of the difference between read-only computation and state-changing transactions.
 
+## Conceptual Map
+
+```mermaid
+flowchart TD
+    A[User calls contract] --> B{Select operation}
+    B --> C[Addition or Substraction]
+    B --> D[Signed subtraction]
+    B --> E[Update resultado]
+    C --> F[Return calculated value]
+    C --> G[Emit operation event]
+    D --> H[Return int256 value]
+    E --> I{multiplier2 validation}
+    I -->|Value is 10| J[Update state variable]
+    I -->|Value is not 10| K[Revert transaction]
+```
+
+The diagram summarizes the main execution paths: arithmetic functions return values, event-enabled functions record activity, and state-changing functions update `resultado` after validation.
+
 ## Tech Stack
 
 - **Solidity:** `0.8.24`
