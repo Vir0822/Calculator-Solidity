@@ -73,6 +73,17 @@ multiplier2(10)      -> updates resultado successfully
 multiplier2(5)       -> reverts the transaction
 ```
 
+## Testing
+
+The contract was manually tested in Remix IDE using Remix VM with the following scenarios:
+
+- Valid addition returns the expected result.
+- Signed subtraction supports negative results.
+- `multiplier` updates the `resultado` state variable.
+- `multiplier2(10)` passes validation and updates the state.
+- `multiplier2(5)` fails validation and reverts the transaction.
+- Unsigned subtraction reverts when the result would be negative.
+
 ## Key Concepts Demonstrated
 
 - State variables and Solidity's automatically generated getters
@@ -87,7 +98,7 @@ multiplier2(5)       -> reverts the transaction
 - `Addition` and `Substraction` return their calculated values but do not update `resultado`.
 - An unsigned subtraction reverts when the result would be negative.
 - `checkNumber` only allows execution when its argument is exactly `10`.
-- The project does not include automated tests, deployment scripts, or production security audits.
+- The project does not include an automated test suite, deployment scripts, or production security audits.
 - This contract is intended for learning and portfolio demonstration only. It does not handle funds and should not be used in production.
 
 ## License
