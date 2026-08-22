@@ -1,6 +1,6 @@
 # Solidity Calculator
 
-An educational smart contract built with Solidity to demonstrate arithmetic operations, state management, events, modifiers, visibility, and signed versus unsigned integers.
+A Solidity-based calculator project that demonstrates arithmetic operations, state management, events, modifiers, visibility, and signed versus unsigned integers.
 
 ## Overview
 
