@@ -8,7 +8,7 @@ An educational smart contract built with Solidity to demonstrate arithmetic oper
 
 ## Tech Stack
 
-- **Solidity:** `0.8.35` in the corrected version
+- **Solidity:** `0.8.24`
 - **Development tool:** [Remix IDE](https://remix.ethereum.org/)
 - **Execution environment:** Remix VM
 - **License:** LGPL-3.0-only
@@ -17,8 +17,8 @@ An educational smart contract built with Solidity to demonstrate arithmetic oper
 
 | File | Description |
 | --- | --- |
-| `Add corrected Calculadora.sol.sol` | Corrected contract using Solidity `0.8.35`. |
-| `Calculadora.sol` | Alternative version compatible with Solidity `^0.8.24`. |
+| `Add corrected Calculadora.sol.sol` | Contract using Solidity `0.8.24`. |
+| `Calculadora.sol` | Contract using Solidity `0.8.24`. |
 
 ## Contract API
 
@@ -37,8 +37,8 @@ The public state variable `resultado` is initialized to `10`. Solidity automatic
 ## Getting Started
 
 1. Open [Remix IDE](https://remix.ethereum.org/).
-2. Create a new `.sol` file and paste the contents of the preferred contract version.
-3. Open **Solidity Compiler** and select a compiler version compatible with the file's `pragma`.
+2. Create a new `.sol` file and paste the contract contents.
+3. Open **Solidity Compiler** and select compiler version `0.8.24`.
 4. Compile the `Calculadora` contract.
 5. Open **Deploy & Run Transactions**, select **Remix VM**, and click **Deploy**.
 6. Interact with the deployed contract and inspect the emitted events in the console.
