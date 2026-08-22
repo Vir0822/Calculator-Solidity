@@ -6,6 +6,8 @@ A Solidity-based calculator project that demonstrates arithmetic operations, sta
 
 `Calculadora` is a small, self-contained project designed to practice core smart contract concepts in a simple and inspectable codebase. It can be compiled and deployed locally with Remix IDE without requiring a wallet, testnet, or external service.
 
+The contract provides a set of calculator operations while illustrating how Solidity handles persistent state, input validation, event emission, and different integer types. It combines functions that return calculated values with functions that update the on-chain variable `resultado`, making it a practical example of the difference between read-only computation and state-changing transactions.
+
 ## Tech Stack
 
 - **Solidity:** `0.8.24`
