@@ -22,6 +22,18 @@ flowchart TD
     E --> I{multiplier2 validation}
     I -->|Value is 10| J[Update state variable]
     I -->|Value is not 10| K[Revert transaction]
+
+    classDef input fill:#EAF2FB,stroke:#1F4E79,stroke-width:2px,color:#12304A
+    classDef process fill:#D9E8F5,stroke:#2B5D7D,stroke-width:2px,color:#0F2D3D
+    classDef decision fill:#F4F8FC,stroke:#3C6E91,stroke-width:2px,color:#17324D
+    classDef success fill:#DCEFF7,stroke:#1B6CA8,stroke-width:2px,color:#103B5C
+    classDef error fill:#FDECEC,stroke:#A23B3B,stroke-width:2px,color:#632121
+
+    class A input
+    class B,I decision
+    class C,D,E process
+    class F,G,H,J success
+    class K error
 ```
 
 The diagram summarizes the main execution paths: arithmetic functions return values, event-enabled functions record activity, and state-changing functions update `resultado` after validation.
